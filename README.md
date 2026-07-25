@@ -490,23 +490,7 @@ hospital-patient-experience-intelligence/
 ├── Project.ipynb
 ├── hospital dataset.csv
 ├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/
-│   └── processed/
-├── outputs/
-│   ├── figures/
-│   └── tables/
-└── src/
-    └── analysis.py
-```
 
-### Current minimum structure
-
-```text
-├── Project.ipynb
-├── hospital dataset.csv
-└── README.md
 ```
 
 ---
@@ -626,24 +610,7 @@ pip freeze > requirements.txt
 - Create a lead-scoring pipeline combining analytical need and commercial readiness.
 - Validate the Technology Opportunity Score using pilot outcomes.
 
----
 
-## Pre-Publication Checklist
-
-Before publishing the repository:
-
-- [ ] Rename the CSV file to exactly `hospital dataset.csv`, or update the notebook path.
-- [ ] Add the official dataset source URL.
-- [ ] Add the dataset publication date and licence.
-- [ ] Replace the duplicated nurse-communication visual with the intended discharge-information analysis.
-- [ ] Revise the outdated notebook text stating that opportunity scoring is outside the project scope.
-- [ ] Export important charts into an `outputs/figures` folder.
-- [ ] Export the ranked opportunity table into `outputs/tables`.
-- [ ] Create `requirements.txt`.
-- [ ] Clear unnecessary notebook outputs or re-run the notebook from top to bottom.
-- [ ] Add a repository screenshot or dashboard preview.
-- [ ] Add an appropriate project licence.
-- [ ] Replace `<your-repository-url>` with the real GitHub URL.
 
 ---
 
