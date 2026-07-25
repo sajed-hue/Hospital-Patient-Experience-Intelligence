@@ -129,7 +129,6 @@ This project transforms survey data into an analytical and commercial prioritisa
 | `discharge_information` | Numeric | Positive discharge-information score | 0–100 |
 | `patient_recommendation` | Numeric | Percentage recommending the hospital | 0–100 |
 
-> **Important:** The official source URL, publication date, and licence are not documented in the current notebook. Add them before publishing the repository.
 
 ---
 
